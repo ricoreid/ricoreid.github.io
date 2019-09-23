@@ -48,6 +48,7 @@ nav{
     height: 5px;
     background-color: rgb(226, 226, 226);
     margin: 5px;
+    transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 1024px){
@@ -99,7 +100,7 @@ nav{
 }
 
 .toggle .line1{
-    transform: rotate(-45deg translate(-5px, 6px));
+    transform: rotate(-45deg) translate(-5px, 6px);
 }
 
 .toggle .line1{
@@ -107,5 +108,5 @@ nav{
 }
 
 .toggle .line1{
-    transform: rotate(45deg translate(-5px, -6px));
+    transform: rotate(45deg) translate(-5px, -6px);
 }
