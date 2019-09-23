@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    /* background-color: brown */
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    color: rgb(202, 201, 201);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links a{
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.berger div{
+    width: 25px;
+    height: 5px;
+    background-color: rgb(206, 206, 206);
+    margin: 5px;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        display: none;
+    }
+}
