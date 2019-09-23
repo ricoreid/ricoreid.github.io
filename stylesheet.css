@@ -9,7 +9,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    /* background-color: brown */
+    background-color: rgb(110, 82, 82);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -38,15 +38,74 @@ nav{
     list-style: none;
 }
 
+.berger{
+    display: none;
+    cursor: pointer;
+}
+
 .berger div{
     width: 25px;
     height: 5px;
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(226, 226, 226);
     margin: 5px;
+}
+
+@media screen and (max-width: 1024px){
+    .nav-links{
+        width: 60%;
+    }
 }
 
 @media screen and (max-width: 768px){
     body{
-        display: none;
+        overflow-x: hidden;
     }
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #504954;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translate(100%);
+        transition: transform 0.5s ease-in;
+    }
+
+    .nav-links li{
+        opacity: 0;
+    }
+
+    .berger{
+        display: block;
+    }
+}
+
+.nav-active{
+    transform: translate(0%);
+}
+
+@keyframes navLinkFace{
+    from{
+        opacity: 0;
+        transform: translate(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg translate(-5px, 6px));
+}
+
+.toggle .line1{
+    opacity: 0;
+}
+
+.toggle .line1{
+    transform: rotate(45deg translate(-5px, -6px));
 }
