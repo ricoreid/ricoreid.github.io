@@ -2,7 +2,7 @@ const navSlide = () => {
     const berger = document.querySelector('.berger');
     const nav = document.querySelector('.nav-links');
     const navLinks = document.querySelectorAll('.nav-links li')
-
+    
     berger.addEventListener('click', () =>{
         // toggle nav
         nav.classList.toggle('nav-active');
