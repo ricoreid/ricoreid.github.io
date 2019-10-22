@@ -31,7 +31,7 @@ nav{
 }
 
 .nav-links a{
-    background-color: rgb(226, 226, 226);
+    color: rgb(226, 226, 226);
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
