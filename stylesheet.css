@@ -31,7 +31,7 @@ nav{
 }
 
 .nav-links a{
-    color: rgb(26, 22, 226);
+    color: rgb(226, 226, 226);
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
@@ -67,6 +67,7 @@ nav{
             height: 92vh;
             top: 8vh;
         background-color: rgb(110, 82, 82);
+        color: whitesmoke;
         display: flex;
         flex-direction: column;
         align-items: center;
