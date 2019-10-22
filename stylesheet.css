@@ -72,7 +72,7 @@ nav{
         align-items: center;
         width: 50%;
         transform: translateX(100%);
-        transition: transform 0.5s ease-in;
+        transition: transform 1s ease-in;
     }
 
     .nav-links li{
@@ -81,7 +81,7 @@ nav{
 
     .berger{
         display: block;
-}
+    }
 }
 
 .nav-active{
