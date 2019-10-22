@@ -26,16 +26,16 @@ nav{
     width: 30%;
 }
 
+.nav-links li{
+    list-style: none;
+}
+
 .nav-links a{
     color: rgb(226, 226, 226);
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 14px;
-}
-
-.nav-links li{
-    list-style: none;
 }
 
 .berger{
