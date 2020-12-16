@@ -12,7 +12,7 @@ const navSlide = () => {
             if(link.style.animation) {
                 link.style.animation = '';
             } else {
-                link.style.animation = 'navLinkFade 1s ease forwards  ${index / 7 + 1.5}s';
+                link.style.animation = "navLinkFade 1s ease forwards ${index / 7 + 1.5}s";
             }
         });
         // berger animation
