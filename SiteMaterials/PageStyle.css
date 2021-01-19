@@ -1,0 +1,104 @@
+
+
+body {
+    text-align: center;
+    margin: 10px;
+}
+
+/* HEADER */
+
+.HeaderContainer {
+    border: black solid 1px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 10px;
+    width: 80%;
+}
+
+.HeaderProfileImgAndDetails {
+    border: blue solid 1px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.HeaderContainer .HeaderProfileImgAndDetails .ProfileImage img {
+    border-radius: 50%;
+    border: white solid 1px;
+    box-shadow: gray 0px 0px 2px;
+}
+
+.ContactDetails {
+    border: darkgoldenrod solid 1px;
+    display: flex;
+    margin: 5px;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutMe {
+    margin: 0 auto;
+    border: red solid 1px;
+    width: 50%;
+}
+
+.AboutMeSection {
+    display: flex;
+}
+
+.AboutMeSection p img:nth-of-type(1) {
+    border: white solid 1px;
+    border-radius: 10%;
+    box-shadow: dimgray 0 0 2px;
+    float: left;
+    margin: 3px;
+    width: 100px;
+}
+
+.AboutMeSection p b:nth-of-type(1) {
+    float: left;
+}
+
+.AboutMeSection p img:nth-of-type(2) {
+    border: white solid 1px;
+    border-radius: 10%;
+    box-shadow: dimgray 0 0 2px;
+    float: right;
+    margin: 3px;
+    width: 100px;
+}
+
+.AboutMeSection a {
+    display: inline-flex;
+    flex-wrap: wrap;
+
+}
+
+.Info {
+    padding: 5px;
+    margin: 5px;
+    flex: 1;
+    height: inherit;
+    vertical-align: middle;
+}
+
+.Info .material-icons {
+    display: inline;
+    float: left;
+}
+
+.Info .fas {
+    display: inline;
+    float: left;
+}
+
+.SendMessage {
+    padding: 5px;
+    margin: 5px;
+    flex: 1;
+}
+
+.SendEmail > * {
+    margin: 10px 0;
+}

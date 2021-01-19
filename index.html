@@ -5,33 +5,75 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="stylesheet.css">
         <title>Ricardo Reid</title>
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="SiteMaterials/css/bootstrap.css">
+        <link rel="stylesheet" href="SiteMaterials/PageStyle.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     </head>
 
     <body>
-        <nav>
-            <div class ="logo">
-                <h4>Ricardo Reid</h4>
+
+        <div id="hdrContainer" class="HeaderContainer">
+
+            <div id="hdrProfileImgAndDetails" class="HeaderProfileImgAndDetails">
+
+                <div id="prflImage" class="ProfileImage">
+                    <img src="SiteMaterials/images/profile_pic.jfif" alt="Profile Picture">
+                </div>
+
+                <div id="cntctDetails" class="ContactDetails">
+
+                    <section id="info" class="Info">
+                        <i class="material-icons">place</i> <h6><b>Address</b></h6>
+                        <address>
+                            Krakow,
+                            Poland.
+                        </address>
+                        <i class="fas fa-phone-volume"></i> <h6><b>Let's talk</b></h6>
+                        <a href="tel:+48-555-555-555">+48-555-555-555</a>
+                    </section>
+
+                    <section id="sndAMessage" class="SendAMessage">
+                        <h6><b>Send me a message</b></h6>
+                        <form action="" method="GET" class="SendEmail form-inline">
+                            <input type="text" id="fname" name="fname" class="FirstName form-control" placeholder="First Name"><input type="text" id="lname" name="lname" class="LastName form-control"placeholder="Last Name">
+                            <input type="email" id="email" name="email" class="Email form-control" placeholder="Enter Email Address">
+                            <input type="tel" id="tel" name="tele" class="Telephone form-control" placeholder="Telephone: e.g. +48 555 555 555">
+                            <textarea id="message" name="msg" class="Message form-control"  placeholder="Enter Your Message"></textarea>
+                            <input type="button" value="Send Message" class="btn btn-primary">
+
+                        </form>
+                    </section>
+                </div>
             </div>
 
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">My Projects</a></li>
-            </ul>
+            <div id="abtMe" class="AboutMe">
 
-            <div class="berger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
+                <h1>About Me</h1>
+
+                <section id="abtMeSection" class="AboutMeSection">
+
+                    <p>
+                        <img src="SiteMaterials/images/iranNationalFlower.jpg" alt="Picture representing positivity">
+                        There are many perspectives to life that you adapt to help you navigate it. To have a positive outlook for me, brings a lot more hope even in the most dire of
+                        situations. This perspective must be coupled with putting in the work, because no hope will be realized with the accompanying work being put in it.<br><br>
+
+                        <img src="SiteMaterials/images/KuchniaIzraelska.jfif" alt="Picture representing positivity">
+                        I am a huge fan of food, these days i'm thinking about buying a t-shirt that states, "I'm here for the food" for whenever i travel. Eating is one of my talents,
+                        of which i'm very prood of lol... I would like to try as much cuisine as i possibly can.<br>
+                    </p>
+                </section>
             </div>
 
-        </nav>
-        
-        <script src="app.js"></script>
+        </div>
+
+        <div id="bdContainer" class="BodyContainer">
+
+        </div>
+
     </body>
 
 </html>
