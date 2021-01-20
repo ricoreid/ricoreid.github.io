@@ -1,8 +1,9 @@
 
 
-body {
-    text-align: center;
-    margin: 10px;
+body {    
+    height: auto;
+    margin: 0 auto;
+    width: 80%;
 }
 
 /* HEADER */
@@ -11,9 +12,10 @@ body {
     border: black solid 1px;
     display: flex;
     flex-wrap: wrap;
+    height: 0 auto;
     margin: 0 auto;
-    padding: 10px;
-    width: 80%;
+    padding-top: 12%;
+    width: 90%;
 }
 
 .HeaderProfileImgAndDetails {
@@ -100,5 +102,24 @@ body {
 }
 
 .SendEmail > * {
-    margin: 10px 0;
+    margin: 10px;
+}
+
+/* BODY CONTENT */
+
+.BodyContainer {
+    border: #64ee08f3 solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;   
+}
+
+.Row-1 .Row-2 .Row-3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: inherit;
 }
