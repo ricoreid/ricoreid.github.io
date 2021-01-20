@@ -10,11 +10,16 @@ body {
 
 .HeaderContainer {
     border: black solid 1px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
     display: flex;
     flex-wrap: wrap;
-    height: 0 auto;
+    height: 100vh;
     margin: 0 auto;
-    padding-top: 12%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     width: 90%;
 }
 
